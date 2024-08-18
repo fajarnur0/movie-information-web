@@ -23,61 +23,32 @@
           <h1 class="text-white mb-0">JAR DB Movie</h1>
         </div>
       </div>
-
+      <!-- SEARCH -->
       <div class="row">
         <div class="col">
           <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search Movies"
-              aria-label="Search"
-              id="search-input"
-            />
-            <button
-              class="btn btn-outline-success"
-              type="button"
-              id="search-button"
-            >
-              Search
-            </button>
+            <input class="form-control me-2" type="search" placeholder="Search Movies" aria-label="Search" id="search-input"/>
+            <button class="btn btn-outline-success" type="button" id="search-button">Search</button>
           </form>
         </div>
       </div>
-
+      <!-- MOVIE CONTAINER -->
       <div class="row movie-container"></div>
     </div>
 
     <!-- Modal -->
-    <div
-      class="modal fade"
-      id="movieDetailModal"
-      tabindex="-1"
-      aria-labelledby="movieDetailModalLabel"
-      aria-hidden="true"
-    >
+    <div class="modal fade" id="movieDetailModal" tabindex="-1" aria-labelledby="movieDetailModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="movieDetailModalLabel">
               Modal title
             </h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body"></div>
           <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
